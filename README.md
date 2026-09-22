@@ -1,6 +1,6 @@
 # Compulsory Assignment 1 review guide
 
-Submitted commit: _add the final commit hash here before submitting in Moodle_
+Submitted commit: see the exact commit hash submitted in Moodle
 
 ## Setup and reset
 
