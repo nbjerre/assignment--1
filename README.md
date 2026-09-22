@@ -1,7 +1,7 @@
 # Compulsory Assignment 1 review guide
 
 Group members: Nicolai Bjerregaard Jensen
-Submitted commit:
+Submitted commit:3866b76049b16ee5df7711d595717e6db016a1a0
 Setup and reset instructions: [Lecture 1](mobilityticketing-lecture-1-starter/README.md), [Lecture 2](mobilityticketing-lecture-2-starter/README.md), [Lecture 3](mobilityticketing-lecture-3-starter/README.md), [Lecture 4](mobilityticketing-lecture-4-starter/README.md)
 
 ## Where to find the work
