@@ -13,9 +13,9 @@ Lecture 4: migration stages and verification: [migration stages](mobilityticketi
 
 ## Two decisions worth discussing
 
-1. **Route-stop identity:** We chose `(route_id, stop_sequence)` as the primary key. The alternative was to use a separate route-stop ID or ban repeated stops. The composite key matches the ordered route workload and still permits loop routes. The model and reasoning are in the [Lecture 1 dossier](mobilityticketing-lecture-1-starter/docs/dossier.md).
+1. **Route-stop identity:** I chose `(route_id, stop_sequence)` as the primary key. The alternative was to use a separate route-stop ID or ban repeated stops. The composite key matches the ordered route workload and still permits loop routes. The model and reasoning are in the [Lecture 1 dossier](mobilityticketing-lecture-1-starter/docs/dossier.md).
 
-2. **Revenue reporting:** We chose the direct SQL query or SQL function as the trusted source for daily revenue. The alternative was to use a materialized view or a trigger-maintained summary table to make reads faster. Our tests showed that the direct query and function always reflected new payments, status changes, and deletions, while the summary table could become outdated. The results are documented in the [Lecture 3 evidence](mobilityticketing-lecture-3-starter/docs/reporting-evidence.md).
+2. **Revenue reporting:** I chose the direct SQL query or SQL function as the trusted source for daily revenue. The alternative was to use a materialized view or a trigger-maintained summary table to make reads faster. My tests showed that the direct query and function always reflected new payments, status changes, and deletions, while the summary table could become outdated. The results are documented in the [Lecture 3 evidence](mobilityticketing-lecture-3-starter/docs/reporting-evidence.md).
 
 ## One limitation or open question
 
